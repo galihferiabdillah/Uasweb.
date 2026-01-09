@@ -31,12 +31,15 @@ PENJELASAN APLIKASI SEMBAKO BAROKAH
 LOGIN
 
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/b957b34a-dd30-4c60-9a2c-75e57946b89b" />
+
 INDEX
 
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/88735ce0-c528-48db-9fdb-73ea67dbfef5" />
+
 STOCK BARANG
 
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/ee329bbe-f862-4e7d-ac32-358f23e0fdeb" />
+
 STRUK
 
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/28fe2038-a78a-4845-ac7e-d44639e6ce04" />
