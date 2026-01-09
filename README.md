@@ -1,50 +1,32 @@
-# Uasweb.
-NAMA : MUHAMMAD GALIH FERI ABDILLAH 
+# Aplikasi Management Stock Sembako - UAS Pemrograman Web
 
-KELAS : TI.24.A.4
+## Deskripsi Program
+Aplikasi ini adalah sistem informasi manajemen stok barang sembako sederhana yang dibangun menggunakan **PHP Native** dengan paradigma **Object-Oriented Programming (OOP)** dan arsitektur **Modular**. [cite_start]Aplikasi ini dirancang untuk memudahkan admin dan user dalam mengelola inventaris barang secara efisien[cite: 5, 6].
 
-NIM : 312410299
+## Fitur Utama
+Sesuai dengan ketentuan tugas UAS, aplikasi ini memiliki fitur:
+* [cite_start]**Sistem Login Multi-role**: Membedakan hak akses antara Admin dan User[cite: 9].
+* [cite_start]**CRUD Lengkap**: Tambah, Tampil, Edit, dan Hapus data barang[cite: 10].
+* [cite_start]**Filter Pencarian**: Mencari barang berdasarkan nama[cite: 10].
+* [cite_start]**Pagination**: Pembagian data dalam beberapa halaman untuk kenyamanan visual[cite: 10].
+* [cite_start]**Responsive Design**: Tampilan optimal di perangkat mobile menggunakan Bootstrap 5[cite: 7].
+* [cite_start]**Fitur Transaksi & Struk**: Simulasi pembelian yang memotong stok secara otomatis dan mencetak struk bukti[cite: 5].
 
-MAPEL : PEMOGRAMAN WEB 1
+## Teknologi yang Digunakan
+* PHP 8.x (OOP & Modular)
+* MySQL (Database)
+* Bootstrap 5 (Framework CSS)
+* [cite_start]Apache (.htaccess untuk Routing) [cite: 6, 7]
 
-DOSEN :Agung Nugroho, S.Kom., M.Kom.
+## Cara Instalasi
+1.  Pastikan XAMPP terinstal dan aktif (Apache & MySQL).
+2.  Letakkan folder proyek di `C:/xampp/htdocs/stocksembako`.
+3.  Impor file `database.sql` melalui phpMyAdmin (`localhost/phpmyadmin`).
+4.  Buka browser dan akses `http://localhost/stocksembako/login.php`.
 
-# 🏪 Sembako Barokah - Sistem Informasi Stok Barang
+## Akun Login
+* **Admin**: username: `admin` | password: `admin123`
+* **User**: username: `user` | password: `user123`
 
-Sistem manajemen stok sembako berbasis Web PHP Native dengan arsitektur OOP (Object Oriented Programming). Projek ini dibuat untuk memenuhi tugas UAS pemrograman web.
-
-## 🚀 Fitur Utama
-- **Login Multi-user**: Akses aman untuk Admin dan User.
-- **CRUD Data**: Tambah, Lihat, Edit, dan Hapus data sembako.
-- **Fitur Transaksi**: Simulasi pembelian barang yang otomatis memotong stok.
-- **Cetak Struk**: Bukti pembelian yang siap cetak (print-ready).
-- **Search & Pagination**: Pencarian barang dan pembagian halaman yang rapi.
-
-## 🛠️ Teknologi yang Digunakan
-- **Bahasa**: PHP 8.2
-- **Database**: MySQL (MariaDB)
-- **Frontend**: HTML5, CSS3 (Bootstrap 5), JavaScript (SweetAlert2)
-- **Library**: PDO untuk koneksi database yang aman.
-
-
-PENJELASAN APLIKASI SEMBAKO BAROKAH
-LOGIN
-
-<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/b957b34a-dd30-4c60-9a2c-75e57946b89b" />
-
-INDEX
-
-<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/88735ce0-c528-48db-9fdb-73ea67dbfef5" />
-
-STOCK BARANG
-
-<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/ee329bbe-f862-4e7d-ac32-358f23e0fdeb" />
-
-STRUK
-
-<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/28fe2038-a78a-4845-ac7e-d44639e6ce04" />
-
-
-
-
-
+## Dokumentasi Video
+[cite_start]Link Demo YouTube: [MASUKKAN_LINK_YOUTUBE_ANDA_DI_SINI]
